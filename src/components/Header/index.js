@@ -1,15 +1,17 @@
 import React from 'react';
 import { Menu, Layout } from 'antd';
+import { Link  } from 'react-router-dom';
 
 const { Header } = Layout;
 
 const AppHeader = () => {
     return (
         <Header className="app-header">
-            <h2 className="logo">DreamWithUs</h2>
-            <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-                <Menu.Item key="1">Home</Menu.Item>
-            </Menu>
+            <div className="container">
+                    <ul className="right">
+                        
+                    </ul>
+                </div>
         </Header>
     )
 }

@@ -5,13 +5,15 @@ import {
   Route
 } from "react-router-dom";
 
+import BitOperatorBlog from './components/Blogs/BitOperator';
+
 export default function AppRoutes() {
   return (
     <Router>
       <div>
         <Switch>
           <Route path="/">
-                Home router
+               <BitOperatorBlog /> 
           </Route>
         </Switch>
       </div>

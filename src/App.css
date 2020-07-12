@@ -7,7 +7,7 @@
 .main{
   flex:1;
   margin-top: 5em;
-  padding: 1em;
+  padding: 1em 4em 1em 4em;
 }
 
 .app-footer{
@@ -25,4 +25,17 @@
 .logo{
   color: white;
   font-weight: 600;
+}
+
+.blog-title{
+  text-align: center;
+  font-weight: 600;
+  font-size: 2em;
+}
+.blog-subtitle{
+  font-size: 1.6em;
+}
+
+.blog-body{
+  font-size: 1.4em;
 }
